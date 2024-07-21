@@ -1,9 +1,12 @@
 /* global sets ========== */
 html {
   /* vars */
-  --bar-color: #40A465;
+  /* --bar-color: #40A465; */
   --bg-color: #254730;
   --fg-color: white;
+  --bg-dim: #00000040;
+  --bg-bright: #FFFFFF34;
+  --bar-color: var(--bg-dim);
 
   min-height: 100%;
   position: relative;
@@ -13,12 +16,13 @@ html {
   color: var(--fg-color);
 }
 
-em {
-  font-style: italic;
-}
+em  { font-style: italic; }
+.em { font-style: italic; }
+.ul { text-decoration: underline; }
 
-a:visited {
+a:link, a:visited {
   color: var(--fg-color);
+  text-decoration: none;
 }
 
 .qt:hover {
@@ -44,10 +48,13 @@ header {
 }
 
 header img {
-  height: 36px;
-  width: 36px;
+  height: 90%;
+  /* height: 36px; */
+  /* width: 36px; */
   margin: 2px;
   border-radius: 100%;
+  position: absolute;
+  top: 0px;
 }
 
 header nav {
@@ -59,6 +66,7 @@ header .navlist {
   flex-grow: 100;
   margin: 0px;
   height: 40px;
+  padding: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +82,7 @@ header a {
   border-radius: 20px;
 }
 header a:hover {
-  background-color: rgba(255,255,255,0.2);
+  background-color: var(--bg-bright);
 }
 
 
@@ -101,15 +109,9 @@ content {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-
-content section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
   z-index: 1; /* go behind the header, chrome janks without this, thanks google */
 }
+
 
 
 /* footer section ========== */
@@ -135,6 +137,9 @@ footer {
   header {
     height: 80px;
     font-size: 3em;
+  }
+  header img {
+    margin: 4px;
   }
   content {
     margin-bottom: 120px; /* footer positioning again, there really needs to be better options for handling footers*/
