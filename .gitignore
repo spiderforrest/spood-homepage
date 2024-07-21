@@ -1,0 +1,6 @@
+nginx.conf.compiled
+logs/
+store/
+*temp/
+*pem
+*pem*

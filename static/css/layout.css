@@ -1,0 +1,145 @@
+/* global sets ========== */
+html {
+  /* vars */
+  --bar-color: #40A465;
+  --bg-color: #254730;
+  --fg-color: white;
+
+  min-height: 100%;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--fg-color);
+}
+
+em {
+  font-style: italic;
+}
+
+a:visited {
+  color: var(--fg-color);
+}
+
+.qt:hover {
+  transform: rotate(360deg); /* voidlinux made me love doing this */
+}
+.qt {
+ 	transition:transform 1s ease; /* these go outside the trigger bc toggling this off makes it snap */
+}
+
+
+/* header section ========== */
+header {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+  display: flex; /* how 2 center div 2024 real updated not clickbait free download no virus*/
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+
+  background-color: var(--bar-color);
+}
+
+header img {
+  height: 36px;
+  width: 36px;
+  margin: 2px;
+  border-radius: 100%;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+}
+
+header .navlist {
+  flex-grow: 100;
+  margin: 0px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--fg-color);
+  padding: 6px;
+  border-radius: 20px;
+}
+header a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+
+/* page content section ========== */
+body {
+  margin: 0px; /* reset a stupid default */
+  background-color: var(--bg-color);
+}
+
+content * {
+  padding: 6px;
+  border-radius: 20px;
+}
+
+content p, content a, content em {
+  padding: 0px;
+}
+
+content img {
+  max-height: 400px;
+}
+
+content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+content section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1; /* go behind the header, chrome janks without this, thanks google */
+}
+
+
+/* footer section ========== */
+content { /* technically not the footer but that wrapper is for positioning the footer */
+  margin-bottom: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+
+  display: flex;
+  justify-content: space-around;
+
+  background-color: var(--bar-color);
+}
+
+
+/* mobile ========== */
+@media (max-width: 601px) or (orientation: portrait) {
+  header {
+    height: 80px;
+    font-size: 3em;
+  }
+  content {
+    margin-bottom: 120px; /* footer positioning again, there really needs to be better options for handling footers*/
+  }
+  content, footer {
+    font-size: 2em
+  }
+}
