@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Spooooood</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="static/css/layout.css">
     <!-- fonts -->
@@ -26,8 +26,8 @@
     </content>
 
     <footer>
-      <a href="https://github.com/spiderforrest/" title="Source code"><p class="ul">src</p></a>
-      <a href="mailto:spider@spiderforrest.com" title="Reach out!"><p>spider@spiderforrest.com</p></a>
+      <a href="https://github.com/spiderforrest/spood-homepage" title="Source code"><p class="ul">src</p></a>
+      <a href="mailto:spider-spood.org@spiderforrest.com" title="Reach out!"><p>spider@spiderforrest.com</p></a>
       <p title="Site made by Spider Forrest" class="qt">^_^</p>
     </footer>
   </body>

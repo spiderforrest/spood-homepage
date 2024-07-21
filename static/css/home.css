@@ -8,6 +8,10 @@ content section {
   background-color: var(--bg-dim)
 }
 
+content section {
+  text-align: center;
+}
+
 content section.title {
   justify-content: center;
   align-items: center;
@@ -15,6 +19,18 @@ content section.title {
   background-color: var(--bg-color);
 }
 
-content section.title p {
-  margin: 0;
+content section.xmpp div {
+  display: flex;
+  flex-direction: row;
 }
+
+content section.xmpp img {
+  max-width: 10%;
+}
+
+@media (max-width: 601px) or (orientation: portrait) {
+  content section.xmpp img {
+    max-width: 100%;
+  }
+}
+

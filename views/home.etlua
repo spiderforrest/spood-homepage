@@ -1,12 +1,38 @@
 <link rel="stylesheet" href="static/css/home.css">
 
 <section class="title">
-  <h1>..</h1>
-  <p>...</p>
+  <h1>Welcome to spood.org!</h1>
 </section>
 
 <section>
-  <h1>..</h1>
-  <p>..</p>
-  <img src="favicon.ico">
+  <h1>What's this?</h1>
+  <p>
+    Spood.org is primarily an XMPP chat server run by Spider Forrest.
+    This is just a landing page for humans, as XMPP clients connect directly to the server backend.
+    <br/>
+    This domain may sometimes be in use for private projects or testing by Spider, and not always available, however,
+    the XMPP server will always be available at spood.org, even if this site is not.
+  </p>
+</section>
+
+<section class="xmpp">
+  <h1>What's XMPP?</h1>
+  <div>
+    <p>
+      XMPP is an open source protocol for a lot of things, but in this case, it's mostly a server for messaging.
+      You can access it with any client listed <a href="https://xmpp.org/software"><span class='ul'>here</span></a>, however, spood.org is invite only.
+      <br/>
+      If you'd like to learn more about XMPP, start here: <a href="https://xmpp.org"><span class='ul'>xmpp.org</span></a>
+    </p>
+    <img src="static/img/xmpp-logo.svg"/>
+  </div>
+</section>
+
+<section>
+  <h1>Can I join, then?</h1>
+  <p>
+    If you know someone using it and want an account, shoot an email to <a href="mailto:admin@spood.org"><span class='ul'>admin@spood.org</span></a>.
+    <br/>
+    You can always message users of spood.org from another XMPP server.
+  </p>
 </section>
