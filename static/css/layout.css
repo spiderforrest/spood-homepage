@@ -1,10 +1,10 @@
-/* global sets ========== */
+ /* global sets ========== */
 html {
   /* vars */
   /* --bar-color: #40A465; */
   --bg-color: #254730;
   --fg-color: white;
-  --bg-dim: #193221;
+  --bg-dim: #00000040;
   --bg-bright: #FFFFFF34;
   --bar-color: var(--bg-dim);
 
@@ -29,7 +29,7 @@ a:link, a:visited {
   transform: rotate(360deg); /* voidlinux made me love doing this */
 }
 .qt {
- 	transition:transform 1s ease; /* these go outside the trigger bc toggling this off makes it snap */
+ transition:transform 1s ease; /* these go outside the trigger bc toggling this off makes it snap */
 }
 
 
@@ -119,7 +119,6 @@ content {
 content section {
   max-width: 1180px;
 }
-
 
 
 /* footer section ========== */
