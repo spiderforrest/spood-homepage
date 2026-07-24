@@ -7,11 +7,13 @@
 <section>
   <h1>What's this?</h1>
   <p>
-    Spood.org is primarily an XMPP chat server run by Spider Forrest.
+    Spood.org is primarily an XMPP chat server run by meeeeeeeeee, spider.
     This is just a landing page for humans, as XMPP clients connect directly to the server backend.
     <br/>
-    This domain may sometimes be in use for private projects or testing by Spider, and not always available, however,
-    the XMPP server will always be available at spood.org, even if this site is not.
+    This domain may sometimes be in use for private projects or testing, and not always available or on this page.
+    However, the XMPP server will still be available at spood.org, even if this site is not.
+    <br/>
+    Unless my certs are out again.
   </p>
 </section>
 
@@ -22,6 +24,8 @@
       XMPP is an open source protocol for a lot of things, but in this case, it's mostly a server for messaging.
       You can access it with any client listed <a href="https://xmpp.org/software"><span class='ul'>here</span></a>, however, spood.org is invite only.
       <br/>
+      XMPP is federated, though, so you can sign up elsewhere and message users of spood.org!
+      <br/>
       If you'd like to learn more about XMPP, start here: <a href="https://xmpp.org"><span class='ul'>xmpp.org</span></a>
     </p>
     <img src="static/img/xmpp-logo.svg"/>
@@ -31,8 +35,9 @@
 <section>
   <h1>Can I join, then?</h1>
   <p>
-    If you know someone using it and want an account, shoot an email to <a href="mailto:admin@spood.org"><span class='ul'>admin@spood.org</span></a>.
+    If you know someone using it and want an account, ask them or email <a href="mailto:admin@spood.org"><span class='ul'>admin@spood.org</span></a>.
     <br/>
-    You can always message users of spood.org from another XMPP server.
+    You can always message users of spood.org from another XMPP server-there's a <a href="https://providers.xmpp.net"><span class='ul'>list of free severs here</span></a>,
+    and <a href="https://xmpp.org/getting-started"><span class='ul'>steps to get started here</span></a>.
   </p>
 </section>
